@@ -1,0 +1,17 @@
+body{
+  background-color: #564C43;
+  color: White;
+  list-style-type:none; 
+}
+a{
+	    font-size: 15px; 
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: top;
+    width: 214px;
+    height: 40px;
+}
+}

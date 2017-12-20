@@ -1,0 +1,67 @@
+/*mmmmmmmmmmmmmmmmmmmmmmyyyyyyyyyyyyyyyyy*/
+.menu, .menu li ul{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+.menu > li{
+    float:left;
+    background: violet;
+    text-align: center;
+    padding: 7px 15px;
+    margin-left: 1px;
+    cursor: pointer;
+}
+.menu > li ul{
+    display:none;
+    position:absolute;
+    text-align: left;
+    z-index:100;
+    background-color:blue;
+    width:200px;    
+    margin-top:5px;
+}
+.menu > li > ul{
+    margin-left:-13px;
+    font-size:90%;
+}
+.menu > li:hover > ul{display:block;}
+.menu > li:hover{
+    background: #006;/* #7d7e7d;*/
+}
+.menu > li li{
+    padding:4px 0 4px 8px;
+}
+.menu > li > ul > li.dir{
+    background:url('arrow.png') 96% center no-repeat;
+}
+.menu > li > ul > li:hover > ul{display:block;}
+
+.menu > li > ul  li:hover{
+    background-color:#006;/*#646464;*/  
+}
+.menu > li > ul > li > ul{
+    margin-left:190px;
+    margin-top:-17px;
+    width:220px;
+}
+.menu > li a{
+    text-decoration: none;
+    color: #FFF;/* #D1D1D1;*/
+    display:block;
+}
+.menu > li > ul > li.dir > ul> > li.dir2{
+    background:url('arrow.png') 96% center no-repeat;
+}
+
+.menu > li > ul > li > ul > li:hover > ul{display:block;}
+.menu > li > ul  li:hover{
+    background-color:#006;/*#646464;*/  
+}
+.menu > li > ul > li > ul > li > ul{
+    margin-left:190px;
+    margin-top:-17px;
+    width:220px;
+}
+
+ 

@@ -1,0 +1,25 @@
+label{
+	width:100px;
+	height: 100px;
+	font-size: 25px;
+	background: black;
+	color: white;
+	border-radius: :15px 15px 15px 15px;
+	width: 200px
+}
+
+.field{
+	clear: both; 
+	text-align: right; 
+	line-height: 25px;
+}
+
+body{
+	background: url(G.jpg);
+	background-repeat: no-repeat;;
+	background-size: cover;
+	position: absolute;
+	left: 150px;
+	top:10px;
+}
+\
