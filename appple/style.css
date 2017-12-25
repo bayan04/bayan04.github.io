@@ -1,0 +1,79 @@
+body, html{
+	margin: 0;
+	padding: 0;
+
+}
+.dots{
+	height: 200px;
+}
+.dot{
+	margin: auto;
+	padding: 20px;
+	width: 150px;
+	height: 150px;
+	background: orange;
+	border-radius: 150px;
+	text-align: center;
+	position: relative;
+}
+.korz > div{
+	width: 200px;
+	height: 200px;
+}
+.korz >div>img{
+	width: 200px;
+	height: 200px;
+}
+.dots >div>img{
+	width: 150px;
+	height: 150px;
+}
+#korzina1{
+position: absolute;
+left: 5%;
+top: 40%;
+}
+#korzina2{
+position: absolute;
+left: 40%;
+top: 60%;
+}
+#korzina3{
+position: absolute;
+left: 80%;
+right: 10%;
+top: 40%;
+}
+#score1{
+	position: absolute;
+	left: 69px;
+	top:  198px;
+	width: 40px;
+	height: 40px;
+	background: red;
+	font-size: 35px;
+	border-radius: 10px;
+}
+#score2{
+	position: absolute;
+	left: 546px;
+	top:  315px;
+	width: 40px;
+	height: 40px;
+	background: red;
+	font-size: 35px;
+	border-radius: 10px;
+}
+#score3{
+	position: absolute;
+	left: 1093px;
+	top:  198px;
+	width: 40px;
+	height: 40px;
+	background: red;
+	font-size: 35px;
+	border-radius: 10px;
+}
+  .active { border:3px solid #f00; }
+  .hover { border:3px solid #00f; }
+ 
